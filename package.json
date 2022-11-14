@@ -1,0 +1,28 @@
+{
+  "name": "express_server_2207",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/steveouyang/express_server_2207.git"
+  },
+  "keywords": [
+    "nodejs+npm",
+    "express",
+    "mongodb"
+  ],
+  "author": "steveouyang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.8.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}

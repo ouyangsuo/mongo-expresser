@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+</head>
+<body>
+    <h3>欢迎回来：<span id="spUsername">昵称</span></h3>
+
+    <script src="/files/js/cookies.js"></script>
+    <script>
+        if(getCookie("loginRet")!=="true"){
+            console.log("未找到登录信息");
+            window.location.href = "/files/pages/login.html"
+        }
+        console.log(getCookie("loginRet"),getCookie("username"));
+
+        spUsername.innerText = getCookie("username")
+        
+    </script>
+</body>
+</html>

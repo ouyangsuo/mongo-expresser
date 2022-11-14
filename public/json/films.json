@@ -1,0 +1,157 @@
+{
+    "status": 0,
+    "data": {
+        "films": [
+            {
+                "filmId": 6117,
+                "name": "我的遗憾和你有关",
+                "poster": "https://pic.maizuo.com/usr/movie/107fdd2e39c274e962c6980b73103b43.jpg",
+                "actors": [
+                    {
+                        "name": "甄永波",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/c4934a17463c06d34e5a47813a468495.jpg"
+                    },
+                    {
+                        "name": "甄永涛",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a711bb98f42ae10463783ec53528502c.jpg"
+                    },
+                    {
+                        "name": "何蓝逗",
+                        "role": "向言",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b5746abc7078b46b6f9160cb3f1d73e2.png"
+                    },
+                    {
+                        "name": "曹煜辰",
+                        "role": "林衡宇",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/61edd7d5d56d59866a5c1406845b96a4.jpg"
+                    },
+                    {
+                        "name": "梁颂晴",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f567d1f90988b2bc6bd74109b0ac3f66.jpg"
+                    }
+                ],
+                "director": "甄永波|甄永涛",
+                "category": "剧情|爱情|青春",
+                "synopsis": "我最大的遗憾是，你的遗憾也与我有关。明明互相喜欢，却不得不接受命运的安排。向言（何蓝逗饰）和林衡宇（曹煜辰饰）从小相识，大学重逢，一起体验了青春里的无拘无束，一起规划了拥有彼此的未来，一切美好都顺理成章的展开，无法预料的阻碍也悄悄到来。当她为他穿起婚纱，他还会来吗？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1666310400,
+                "timeType": 3,
+                "runtime": 100,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6119,
+                "name": "可不可以不要离开我",
+                "poster": "https://pic.maizuo.com/usr/movie/3c7a204feab10a9ff60ba55db0ee549e.jpg",
+                "actors": [
+                    {
+                        "name": "郭涛",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/515e5399356587717b26a4801f0a9023.jpg"
+                    },
+                    {
+                        "name": "卢靖姗",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a629e3e2b8e043340bb2f89aae7bd4aa.jpg"
+                    },
+                    {
+                        "name": "贾冰",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/9db69a519c13e7d47a784834419c9422.jpg"
+                    },
+                    {
+                        "name": "王子鸣",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ffa392822906d94d24d89f0d4acfe9d6.jpg"
+                    },
+                    {
+                        "name": "萧飞",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/c18bdd47370ce8e5e3b07be6bcccae33.jpg"
+                    }
+                ],
+                "director": "王子鸣|萧飞",
+                "category": "爱情|剧情",
+                "synopsis": "讲述了 四个城市，四对爱人，同样处在30+人生阶段的他们，人生的轨迹开始出现偏差。四个不同身份，普通人们有了自己的故事，收获不一样的成长痛。30多岁，他们在客观困境中找到幸福的方向，走向不惑；就像在这个看似难熬的冬天，大家都在期待春暖花开，而春天如约而至。 三十不惑、爱情不惑、命运不惑。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1668124800,
+                "timeType": 3,
+                "runtime": 90,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            },
+            {
+                "filmId": 6118,
+                "name": "流浪地球2",
+                "poster": "https://pic.maizuo.com/usr/movie/7a8096bcfb12bcfb899b57e6688cff91.jpg",
+                "actors": [
+                    {
+                        "name": "郭帆",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/49d7bb00e0a2a9199441db5354b65f28.jpg"
+                    },
+                    {
+                        "name": "吴京",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/80f93f06a5fcbbbf0a9085125b2a93b2.jpg"
+                    },
+                    {
+                        "name": "刘德华",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a5fc45490b819cda18057b127816b7a3.jpg"
+                    },
+                    {
+                        "name": "李雪健",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6c377dc94628b41e23c924da29cc7ced.jpg"
+                    }
+                ],
+                "director": "郭帆",
+                "category": "科幻|冒险|灾难",
+                "synopsis": "太阳即将毁灭，人类在地球表面建造出巨大的推进器，寻找新的家园，然而宇宙之路危机四伏，为了拯救地球，流浪地球时代的年轻人再次挺身而出，展开争分夺秒的生死之战...",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1674345600,
+                "timeType": 3,
+                "runtime": 120,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": false,
+                "isSale": false
+            }
+        ],
+        "total": 3
+    },
+    "msg": "ok"
+}

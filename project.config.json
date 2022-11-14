@@ -1,0 +1,28 @@
+{
+    "dbName":"mydb",
+    "jwtSecret":"jinwandalaohu",
+    "routes":[
+        {
+            "name":"film",
+            "middlewares":{
+                "create":["adminCheck"],
+                "createMany":["adminCheck"],
+                "retrieve":[],
+                "retrieveMany":[],
+                "update":["adminCheck"],
+                "delete":["adminCheck"]
+            }
+        },
+        {
+            "name":"city",
+            "middlewares":{
+                "create":["adminCheck"],
+                "createMany":["adminCheck"],
+                "retrieve":["loginCheck"],
+                "retrieveMany":["loginCheck"],
+                "update":["adminCheck"],
+                "delete":["adminCheck"]
+            }
+        }
+    ]
+}
