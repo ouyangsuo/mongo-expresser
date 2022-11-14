@@ -9,6 +9,7 @@ const RouterGenerator = require("./views/RouterGenerator")
 /* 导入子模块路由处理器 */
 const userRouter = require("./views/userRouter")
 const fileRouter = require("./views/fileRouter")
+const { port,routes } = require("./config")
 
 // 创建应用实例
 const app = express()
@@ -24,14 +25,14 @@ app.use("/user",userRouter)
 app.use("/file",fileRouter)
 
 // 读入JSON配置文件
-const config = JSON.parse(
-    fs.readFileSync(path.resolve("project.config.json"))
-)
+// const config = JSON.parse(
+//     fs.readFileSync(path.resolve("project.config.json"))
+// )
 // console.log("config=",config);
 // console.log("config=",config.routes[1].middlewares.create);
 
 // app.use("/cinema",RouterGenerator.from("cinema").generate("express_server"))
-config.routes.forEach(
+routes.forEach(
     ({name,middlewares})=>{
         app.use(`/${name}`,RouterGenerator.from(name,middlewares).generate("express_server"))
     }
@@ -39,7 +40,7 @@ config.routes.forEach(
 
 // 将应用实例app挂载监听在8002端口
 const server = app.listen(
-    8002,
+    port,
     ()=>{
         const host = server.address().address
         const port = server.address().port

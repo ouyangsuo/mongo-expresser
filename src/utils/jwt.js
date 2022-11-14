@@ -1,10 +1,10 @@
 const jsonwebtoken = require("jsonwebtoken");
 // const jwtSecret = "test_key";
-const { jwtSecret } = require("../config");
+const { jwtSecret, tokenAge } = require("../config");
 
 class JWT {
     /* 生成token 返回token*/
-    static generate(value, expires = "7 days") {
+    static generate(value, expires = (tokenAge || "3600s")) {
         console.log("JWT generate value",value);
         // value 为传入值， expires为过期时间，这两者都会在token字符串中题先
         try {

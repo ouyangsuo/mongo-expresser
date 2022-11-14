@@ -7,18 +7,6 @@ const {register,login} = require("../controllers/userController")
 // 创建路由处理器
 const userRouter = express.Router();
 
-// 添加 / 路由处理
-// /user?a=12&b=34
-userRouter.get("/", (req, res) => {
-  // res.send("Hello from userRouter")
-
-  // 直接写出json响应数据
-  res.json({
-    msg: "Hello from userRouter",
-    query: req.query,
-  });
-});
-
 // 添加 /register 路由处理
 userRouter.post("/register", async (req, res) => {
   /* 拿到用户POST过来的请求体 然后插入一条用户记录 */

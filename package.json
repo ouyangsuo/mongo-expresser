@@ -1,5 +1,5 @@
 {
-  "name": "express_server_2207",
+  "name": "mongo-expresser",
   "version": "0.0.1",
   "description": "",
   "main": "src/app.js",
