@@ -6,7 +6,7 @@ const uploadPath = path.join(publicPath, "upload");
 const tempPath = path.resolve("temp");
 
 /* 读入配置 */
-const { dbName, jwtSecret,tokenAge, port } = JSON.parse(
+const { dbName, jwtSecret, tokenAge, port, routes } = JSON.parse(
   fs.readFileSync(path.resolve("project.config.json"))
 );
 
@@ -15,6 +15,7 @@ module.exports = {
   jwtSecret,
   tokenAge,
   port,
+  routes,
   publicPath,
   uploadPath,
   tempPath,

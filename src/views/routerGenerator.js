@@ -30,6 +30,7 @@ class RouterGenerator {
   static applyMiddlewares(_middlewares) {
     for (let key in _middlewares) {
       let names = _middlewares[key];
+      // console.log("names=",names);
       _middlewares[key] = names.map((name) => middlewares[name]);
     }
     return _middlewares;

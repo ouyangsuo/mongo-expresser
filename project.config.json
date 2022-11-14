@@ -18,14 +18,12 @@
         {
             "name": "city",
             "middlewares": {
-                "middlewares": {
-                    "create": ["adminCheck"],
-                    "createMany": ["adminCheck"],
-                    "retrieve": ["loginCheck"],
-                    "retrieveMany": ["loginCheck"],
-                    "update": ["adminCheck"],
-                    "delete": ["adminCheck"]
-                }
+                "create": ["adminCheck"],
+                "createMany": ["adminCheck"],
+                "retrieve": ["loginCheck"],
+                "retrieveMany": ["loginCheck"],
+                "update": ["adminCheck"],
+                "delete": ["adminCheck"]
             }
         }
     ]
