@@ -34,7 +34,8 @@ fileRouter.post("/upload",(req,res)=>{
                 // 再写出到目标文件位置 upload/昵称.jpg
                 fs.writeFile(
                     // 要写出的目标路径
-                    path.join(uploadPath,`${req.body.nickname}.${resolveExtname(oname)}`),
+                    // path.join(uploadPath,`${req.body.nickname}.${resolveExtname(oname)}`),
+                    path.join(uploadPath,oname),
 
                     // 刚刚读入的临时文件的字节数据
                     data,

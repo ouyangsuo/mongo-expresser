@@ -18,7 +18,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use(express.static(path.resolve("public")))
-app.use(multer({dest:path.resolve("temp")}).array("avitar"))
+app.use(multer({dest:path.resolve("temp")}).array("file"))
 
 /* 派发请求给路由器【中间件】 */
 app.use("/user",userRouter)
