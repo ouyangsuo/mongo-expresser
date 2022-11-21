@@ -3,12 +3,13 @@ const express = require("express");
 
 // 导入控制层
 const { register, login } = require("../controllers/userController");
+const adminCheck = require("../middlewares/adminCheck");
 
 // 创建路由处理器
 const userRouter = express.Router();
 
 // 添加 /register 路由处理
-userRouter.post("/register", async (req, res) => {
+userRouter.post("/register",/* adminCheck等中间件 */ async (req, res) => {
   /* 拿到用户POST过来的请求体 然后插入一条用户记录 */
   const { username, password, admin } = req.body;
 

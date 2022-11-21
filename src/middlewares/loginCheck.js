@@ -24,6 +24,7 @@ const isValidToken = (token) => {
   return true;
 };
 
+/* 中间件就是一个请求处理器 */
 const loginCheck = (req, resp, next) => {
   /* 提取token */
   const token = getToken(req)
@@ -31,8 +32,10 @@ const loginCheck = (req, resp, next) => {
   /* 从token中得知是否管理员 */
   /* 如果是管理员next 否则直接返回响应 */
   if(isValidToken(token)){
+      // 鉴权成功=丢给请求器链中的下一个请求处理器处理
       next()
   }else{
+      // 鉴权失败=直接返回
       resp.json(
           new Response("请先登录")
       )
